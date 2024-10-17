@@ -1,0 +1,284 @@
+try2.js
+*{
+    font-size: 16px;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(110, 110, 235);
+    background-color: #8b53ff;
+    padding: 0.5rem;
+    display:flex;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+    align-content: flex-end;
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    z-index: 10;
+    color: white;
+}
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+.searchbar{
+    display: flex;
+    /* align-content: ; */
+    align-items: baseline;
+    align-self: baseline;
+    padding: 0.1rem;
+    /* position: relative; */
+    /* top: 0.5rem; */
+}
+#search{
+    margin: 1rem 0.5rem 0 0.5rem;
+    border-radius: 1rem;
+    width: 31.25rem;
+    height: 2rem;
+    align-items: baseline;
+    align-self: baseline;
+}
+.options{
+    display: flex;
+    align-content: flex-end;
+}
+.options button{
+    margin-top: 1.5rem;
+    margin-left: 0.8rem;
+    background-color: transparent;
+    height: 2rem;
+    /* border: black solid 0.1rem; */
+    border: none;
+    color: white;
+}
+body{
+    background: linear-gradient(to left top, #031A9A, #8b53ff)
+}
+.content{
+    /* background-color: rgb(2, 136, 80); */
+    height: 678px;
+    margin-bottom: 100px;
+}
+.form{
+    height: 600px;
+}
+.rating{
+    /* background-color: limegreen; */
+    height: 400px;
+    position: relative;
+    bottom: 2rem;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.line{
+    height: 10rem;
+}
+.footer{
+    background-color: rgb(78, 49, 49);
+    height: 250px;
+}
+.logoimg img{
+    margin: 0;
+    width: 3rem;
+}
+.logo-name p{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.slider .cards{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.card img{
+    width: 300px;
+    height:300px;
+    object-fit: auto;
+    border-radius: 0.5rem;
+}
+.card{
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 75rem;
+    width : 100%;
+    background-color: #c2e0e7;
+    border-radius: 1rem;
+}
+.slider i{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    background: rgb(177, 218, 254);
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin: 1rem;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 63);
+}
+.para {
+   display: flex;
+   flex-direction: column;
+   background-color:#8b53ff;
+   height: 200px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.para h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    
+}
+.para p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.images{
+    display: flex;
+}
+.images img{
+    /* background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    width: 50rem;
+}
+.form{
+    padding-top: 50px;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-color: inherit;
+
+}
+form:hover{
+    background-color: #7380c8;
+}
+form input, textarea, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #45a049;
+}
+label{
+    color: white;
+}
+#rating input{
+    display: none;
+}
+#rating{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#rating input:checked ~ label,
+#rating label:hover,
+#rating label:hover ~ label{
+    color: #ffd700;
+}
+.footer1{
+    /* background-color: #e68541; */
+    background-color: rgba(45,39,34,255);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 80px 0px;
+    font-family:  "Poppins", sans-serif;
+}
+.box{
+    width: 280.75px;
+    height: 100px;
+    padding: 15px 0 15px 0;
+    margin: 0px 12px 0px 12px;
+}
+.box i{
+    color: #e68541;
+    font-size: 35px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.box h2{
+    color: white;
+    font-weight: 400;
+}
+.box p{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+.info p{
+    font-size: 20px;
+}
+.account i{
+    font-size: 20px;
+    color: white;
+    
+}
+.account button{
+    border-radius: 50%;
+    background-color: rgb(87, 171, 204);
+    border: none;
+}
+.options button:hover{
+    background-color: #c9adff;
+}
+.para:hover{
+   transform: scale(1.01);
+}
+span{
+    color: rgb(246, 198, 198);
+    margin-bottom: 1rem;
+}
+#subbtn{
+    color: white;
+    font-size: 1rem;
+    background-color: #4CaF50;
+    width: 5rem;
+    border-radius: 1rem;
+}
+#username, #email, #password,#confirmPassword{
+    margin-bottom: 0.1rem;
+}
+.la{
+    margin-top: 2rem;
+}

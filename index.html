@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/icon1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">   
+<title>Pocket'monsters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <div class="logoimg"><img src="assets/icon1.png" alt="Logo"></div>
+            <div class="logo-name">
+                <p>Poke' mon</p>
+            </div>
+        </div><!--logo ending-->
+        <div class="searchbar">
+            <input id="search" id="text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="options">
+        <button>Home</button>
+        <button>Form</button>
+        <button>Ratings</button>
+        <button>About</button>
+        </div>
+    </div> <!--navbar ending>-->
+    <br>
+    <div class="line">line</div>
+    <div class="content">
+        <div class="images">
+            <img src="assets/ash-and-pikachu-hd.jpg" alt="">
+            <img src="/assets/catch.png" alt=""></div>
+        <div class="para"> 
+            <h1>About pokemon</h1>
+            <p>"Welcome to the Pokémon Universe! This is your one-stop destination for all things Pokémon, where trainers of all levels can come together to explore the fascinating world of creatures, battles, and adventures. From the nostalgic classics to the latest game releases, we cover everything you need to know about your favorite Pokémon. Discover tips for catching them all, strategies for battling, and insights into the evolving franchise. Whether you’re here to reminisce about childhood favorites or to learn about new characters and updates, our community is dedicated to sharing the joy of Pokémon with fans worldwide. Join us as we embark on this exciting journey filled with exploration, friendship, and endless possibilities!"</p>
+        </div>
+    </div>
+    <!-- form starting -->
+    <div class="form">
+    <form id="registrationForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <span id="usernameError" class="error"></span><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <span id="passwordStrength" class="strength"></span><br>
+        <span id="passwordError" class="error"></span><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br>
+        <span id="confirmPasswordError" class="error"></span><br>
+
+        <input id="subbtn" type="submit" value="Submit">
+    </form>
+    </div>
+    <!-- form ending -->
+    <div class="rating">
+        <div class="slider">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="cards">
+                <div class="card">
+                    <img src="/assets/cimage1.jpg" alt="">
+                    <div id="rating">
+                      <input type="radio " id="star">
+                      <label for="star">&#9733;</label>
+                      <input type="radio " id="star1">
+                      <label for="star1">&#9733;</label>
+                      <input type="radio " id="star2">
+                      <label for="star2">&#9733;</label>
+                      <input type="radio " id="star3">
+                      <label for="star3">&#9733;</label>
+                      <input type="radio " id="star4">
+                      <label for="star4">&#9733;</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card1.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card2.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card3.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card4.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card5.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/card6.jpg" alt="">
+                    <div id="rating">
+                        <input type="radio " id="star">
+                        <label for="star">&#9733;</label>
+                        <input type="radio " id="star1">
+                        <label for="star1">&#9733;</label>
+                        <input type="radio " id="star2">
+                        <label for="star2">&#9733;</label>
+                        <input type="radio " id="star3">
+                        <label for="star3">&#9733;</label>
+                        <input type="radio " id="star4">
+                        <label for="star4">&#9733;</label>
+                      </div>
+                </div>
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+    <div class="footer1">
+        <div class="contacts">
+            <div class="box">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h2>Address</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-envelope"></i>
+                <h2>E-mail</h2>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <h2>Call us</h2>
+                <p>+91 38376 06284</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-clock"></i>
+                <h2>Opening hours</h2>
+                <p>Monday - Friday: 8:00 - 24:00
+                    Saturday: 8:00 - 23:00</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
